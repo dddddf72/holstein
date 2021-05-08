@@ -53,6 +53,9 @@
         background: red;
         font-size: 20px;
     }
+    .firstNavR{
+        
+    }
     /*  */
     .secondNav{
         width: 100%;
