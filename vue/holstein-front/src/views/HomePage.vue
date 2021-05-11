@@ -250,12 +250,134 @@
                 </div>
             </div>
             <div class="whatCanWoDoContainer center">
-                <div :class="['whatCanWoDoItem',isShow?'clickSituation':'']">
-                    <div class="whatCanWedoItemImg">
-                        <img src="../assets/images/pageIndex/组 11@2x(2).png" alt="">
+                <!--<div :class="['whatCanWoDoItem',isShow?'clickSituation':'']">   -->
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/组 11@2x(2).png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">浏览作品集</p>
+                        <p class="whatWeCanDoSlogan">通过浏览历史作品和个人简历来找到值得信任的专业人士</p>
                     </div>
-                    <p>浏览作品集</p>
-                    <p>通过浏览历史作品和个人简历来找到值得信任的专业人士</p>
+                </div>
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/组 11@2x(2).png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">发布竞标需求</p>
+                        <p class="whatWeCanDoSlogan">通过发布竞标需求，让人才自己找上门</p>
+                    </div>
+                </div>
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/图层 14.png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">在线聊天</p>
+                        <p class="whatWeCanDoSlogan">您可以和您的威客在线交流，以同步工作的最新进度</p>
+                    </div>
+                </div>
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/矩形 6 拷贝.png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">资金托管</p>
+                        <p class="whatWeCanDoSlogan">当工作完成且您的满意度达到100%时支付费用</p>
+                    </div>
+                </div>
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/椭圆 4 拷贝 2.png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">跟踪进度</p>
+                        <p class="whatWeCanDoSlogan">用我们的时间追踪器和移动应用程序来保持最新进度和活跃度</p>
+                    </div>
+                </div>
+                <div class="whatCanWoDoItem">
+                    <div class="whatCanWeDoList">
+                        <div class="whatCanWedoItemImg">
+                            <img src="../assets/images/pageIndex/客服.png" alt="">
+                        </div>
+                        <p class="whatWeCanDoTitle">24/7客服</p>
+                        <p class="whatWeCanDoSlogan">我们的全天候支持团队可随时随地为您提供帮助</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cooperative center">
+                <div>合作伙伴</div>
+                <div class="partnerImgs">
+                    <div class="wechat">
+                        <img src="../assets/images/pageIndex/微信.png" alt="">
+                    </div>
+                    <div class="master">
+                        <img src="../assets/images/pageIndex/f2deb48f8c5494eedd4e612e21f5e0fe99257e9c.png" alt="">
+                    </div>
+                    <div class="visa">
+                        <img src="../assets/images/pageIndex/src=http___au.toluna.com_dpolls_images_2018_01_18_fae4f20c-880a-4ae1-9c2f-1dfd6ff9a9b8.jpg&refer=http___au.toluna.png" alt="">
+                    </div>
+                    <div class="alipay">
+                        <img src="../assets/images/pageIndex/支付宝.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="guideBook">
+            <div class="guideBookNav center">
+                <div class="navTitle">Holstein指南</div>
+                <div class="GuidenavTitleContext navTitleContext">
+                    <span class="capa">HOLSTEIN  </span>
+                    <span>GUIDE</span>
+                </div>
+            </div>
+            <div class="guideBookContainer center">
+                <!--<div :class="['whatCanWoDoItem',isShow?'clickSituation':'']">   -->
+                <div class="guideBookItem">
+                    <img src="../assets/images/pageIndex/组 12.png" alt="">
+                </div>
+                <div class="guideBookItem">
+                    <div class="guideList">
+                        <div class="guideItemImg">
+                            <img src="../assets/images/pageIndex/02.png" alt="">
+                        </div>
+                        <p class="guideTitle">提出你的需求</p>
+                        <p class="guideSlogan">让专业人士主动找上门</p>
+                        <div class="arrow">
+                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="guideBookItem">
+                    <img src="../assets/images/pageIndex//组 12(1).png" alt="">
+                </div>
+                <div class="guideBookItem">
+                    <div class="guideList">
+                        <div class="guideItemImg">
+                            <img src="../assets/images/pageIndex/01.png" alt="">
+                        </div>
+                        <p class="guideTitle">聘用人才来完成你的任务</p>
+                        <p class="guideSlogan">寻找专业的人才</p>
+                        <div class="arrow">
+                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="guideBookItem">
+                    <img src="../assets/images/pageIndex/组 12(3).png" alt="">
+                </div>
+                <div class="guideBookItem">
+                    <div class="guideList">
+                        <div class="guideItemImg">
+                            <img src="../assets/images/pageIndex/03.png" alt="">
+                        </div>
+                        <p class="guideTitle">成为自由从业者</p>
+                        <p class="guideSlogan">展示自己的能力，发挥自己的才能</p>
+                        <div class="arrow">
+                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -593,22 +715,119 @@
         margin: 10px 0 0 300px;
     }
     .whatCanWoDoContainer{
-        width: 1280px;
+        width: 1278px;
         height: 560px;
         position: absolute;
-        top: 216px;
-        display: flex;
-        justify-content: space-between;
+        top: 430px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
     }
     .whatCanWoDoItem{
         width: 426px;
         height: 280px;
-        background: url('../assets/images/pageIndex/矩形 3 拷贝.png');
+        background: url('../assets/images/pageIndex/矩形 3 拷贝.png') no-repeat;
+    }
+    .whatCanWeDoList{
+        width: 255px;
+        margin: 60px auto;
+        position: relative;
+    }
+    .whatCanWedoItemImg{
+        width: 60px;
+        height: 57px;
+    }
+    .whatCanWedoItemImg img{
+        width: 60px;
+        height: 57px;
+    }
+    .whatWeCanDoTitle{
+        font-size: 20px;
+        margin: 20px 0;
+        color: #333333;
+    }
+    .whatWeCanDoSlogan{
+        font-size: 16px;
+        width: 255px;
+        height: 40px;
+        color: #999999;
+    }
+    .whatCanWoDoItem :hover{
+        background: url('../assets/images/pageIndex/矩形 3.png') no-repeat;
         color: #FFFFFF;
     }
-    .clickSituation{
-        background: url('../assets/images/pageIndex/矩形 3.png');
-        colo
-        
+    /*  */
+    .cooperative{
+        display: flex;
+        width: 1280px;
+        height: 80px;
+        line-height: 40px;
+        position: absolute;
+        top: 1280px;
+        font-size: 20px;
+        color: #999999;
+
+    }
+    .cooperative>div:first-child{
+        width: 170px;
+    }
+    .partnerImgs{
+        width:1110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .partnerImgs div{
+        width: 130px;
+        height: 55px;
+    }
+    /*  */
+    
+    .guideBook{
+        margin-top: 115px;
+        position: relative;
+        height: 900px;
+        background-color: #9999;
+    }
+    .guideBookNav{
+        display: flex;
+    }
+    .GuidenavTitleContext{
+        margin: 19px 0 0 12px;
+    }
+    .guideBookContainer{
+        /*position: relative;*/
+        width: 1278px;
+        height: 660px;
+        position: absolute;
+        top: 135px;
+        line-height: 104px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .guideBookItem{
+        width: 426px;
+        height: 330px;
+        background: url('../assets/images/pageIndex/矩形 5 拷贝.png') no-repeat;
+    }
+    .guideList{
+        width: 250px;
+        margin: auto auto;
+        position: relative;
+    }
+    .guideItemImg{
+        width: 185px;
+        height: 131px;
+    }
+    .guideItemImg img{
+        width: 185px;
+        height: 131px;
+    }
+    .guideTitle{
+        color: #333333;
+        font-size: 22px;
+    }
+    .guideSlogan{
+        color: #999999;
+        font-size: 16px;
     }
 </style>
