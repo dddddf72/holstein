@@ -345,14 +345,14 @@
                         <p class="guideTitle">提出你的需求</p>
                         <p class="guideSlogan">让专业人士主动找上门</p>
                         <div class="arrow">
-                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                            <!--<img src="../assets/images/pageIndex/组 11(6).png" alt="">-->
                         </div>
                     </div>
                 </div>
                 <div class="guideBookItem">
                     <img src="../assets/images/pageIndex//组 12(1).png" alt="">
                 </div>
-                <div class="guideBookItem">
+                <div class="guideBookItem guideBookFirst">
                     <div class="guideList">
                         <div class="guideItemImg">
                             <img src="../assets/images/pageIndex/01.png" alt="">
@@ -360,7 +360,7 @@
                         <p class="guideTitle">聘用人才来完成你的任务</p>
                         <p class="guideSlogan">寻找专业的人才</p>
                         <div class="arrow">
-                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                            <!--<img src="../assets/images/pageIndex/组 11(6).png" alt="">-->
                         </div>
                     </div>
                 </div>
@@ -375,7 +375,7 @@
                         <p class="guideTitle">成为自由从业者</p>
                         <p class="guideSlogan">展示自己的能力，发挥自己的才能</p>
                         <div class="arrow">
-                            <img src="../assets/images/pageIndex/组 11(6).png" alt="">
+                            <!--<img src="../assets/images/pageIndex/组 11(6).png" alt="">-->
                         </div>
                     </div>
                 </div>
@@ -808,6 +808,14 @@
         width: 426px;
         height: 330px;
         background: url('../assets/images/pageIndex/矩形 5 拷贝.png') no-repeat;
+    }
+    .guideBookFirst{
+        width: 426px;
+        height: 330px;
+        background: url('../assets/images/pageIndex/矩形 3.png');
+    }
+    .guideBookFirst p{
+        color: #FFFFFF;
     }
     .guideList{
         width: 250px;
