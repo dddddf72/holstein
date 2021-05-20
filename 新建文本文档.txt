@@ -1,0 +1,15 @@
+前端master
+F:\holsteinProject\holsteinBigFront\b2c\yshop-qd-master
+F:\holsteinProject\holsteinBigFront\yshopmall_qd
+
+
+各种
+F:\holsteinProject\holsteinBigFront\sun\litemall
+
+研究这三个
+
+F:\holsteinProject\holsteinBigFront\sun\litemall\litemall-vue
+
+微信
+F:\holsteinProject\holsteinBigFront\sun\litemall\litemall-wx
+F:\holsteinProject\holsteinBigFront\sun\litemall\renard-wx
