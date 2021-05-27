@@ -1,0 +1,100 @@
+{
+  "name": "@fect-ui/vue",
+  "version": "0.1.0-alpha.2",
+  "public": true,
+  "description": "Minimalist UI components built on Vue",
+  "license": "MIT",
+  "main": "dist/fect-ui.common.js",
+  "module": "dist/fect-ui.common.js",
+  "author": "Fect Org",
+  "homepage": "https://github.com/fay-org/fect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fay-org/fect"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:lib": "node scripts/build.js",
+    "test:unit": "vue-cli-service test:unit",
+    "coverage": "npm run test:unit -- --coverage",
+    "lint": "eslint \"{packages,_page,src,scripts}/**/*.{js,jsx,vue}\"",
+    "commit": "git-cz",
+    "collect": "node scripts/collect.js && eslint --fix --ext .js packages/index.js",
+    "setup": "hygen component new --name",
+    "release": "npm publish --access public --non-interactive",
+    "report": "npm run coverage && codecov"
+  },
+  "dependencies": {
+    "@fect-ui/themes": "^1.0.8-beta.0",
+    "@mdx-js/vue-loader": "^1.6.22",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@fect-ui/vue-icons": "^0.1.2",
+    "@vue/babel-plugin-jsx": "^1.0.3",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "chalk": "^4.1.0",
+    "codecov": "^3.8.2",
+    "css-loader": "^5.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.7.2",
+    "eslint-config-kagura": "^1.0.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "execa": "^5.0.0",
+    "extract-mdx-metadata": "^1.0.0",
+    "fs-extra": "^9.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.5.0",
+    "prismjs": "^1.23.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "typescript": "~3.9.3",
+    "vue-jest": "^5.0.0-0",
+    "vue-loader": "^16.1.2",
+    "vue-prism-component": "^2.0.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "dist/"
+  ],
+  "keywords": [
+    "vue component",
+    "fect",
+    "vue ui"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
