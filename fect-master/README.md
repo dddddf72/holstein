@@ -31,6 +31,9 @@ src="https://user-images.githubusercontent.com/52351095/118687359-7e809480-b837-
 
 <br/>
 
+```
+https://vue.miaya.art/into
+
 ### Quick start
 
 1. run `yarn add @fect-ui/vue` or `npm install @fect-ui/vue` install it
