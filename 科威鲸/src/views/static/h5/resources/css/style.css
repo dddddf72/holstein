@@ -1,0 +1,630 @@
+.mui-bar .mui-title{
+	color: white;
+}
+.mui-bar-nav{
+	background: #08d298;
+}
+.mui-pull-left{
+	color: white;
+}
+.mui-bar-tab .mui-tab-item.mui-active{
+color: #057547;
+}
+.mui-content{
+	background: #FFFFFF;
+}
+body,html{
+	background: #FFFFFF;
+}
+/* 首页css 开始 */
+nav{
+	padding:0.18rem 0 0.05rem 0;
+	box-sizing: border-box;
+	background: white;
+	border-bottom: 1px solid #ddd;
+}
+nav ul{
+	display: flex;
+	min-height: 0.7rem;
+	background: white;
+	flex-wrap: wrap;
+}
+nav ul li{
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+nav ul a{
+	width: 25%;
+    padding-bottom: 0.1rem;
+}
+nav ul li img{
+	width: 0.32rem;
+	height:0.32rem;
+}
+nav ul li p{
+    font-size: 0.13rem;
+    color: #4e4e4e;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.05rem;
+}
+.the-wallet-balance{
+    width: 95%;
+    margin: 0.1rem auto;
+    min-height: 1.5rem;
+    background: #08d298;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 0.15rem 0;
+	
+}
+.checkup{
+    width: 80%;
+    margin-top: 0.2rem;
+    border: none;
+    color: #027700;
+    font-size: 0.12rem;
+    
+}
+.the-wallet-detail{
+	color:#fff	;
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+}
+.the-wallet-balance .title{
+	    font-size: 0.14rem;
+	    color: white;
+	    margin-bottom: 0.1rem;
+}
+.the-wallet-balance .balance{
+	    color: white;
+}
+.the-wallet-balance .balance span:nth-child(1){
+	font-size: 0.19rem;
+}
+.the-wallet-balance .balance span:nth-child(2){
+	    font-weight: 600;
+	    font-size: 0.3rem;
+}
+.subtitle{
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.1rem;
+    color: white;
+    font-size: 0.12rem;
+}
+.subtitle span:first-child{
+	margin-left: 0.2rem;
+}
+.subtitle span:last-child{
+	margin-right: 0.2rem;
+}
+.org{
+ 	color:#f0cd4e;
+}
+/* 首页css 结束 */
+
+
+
+/* 车位管理CSS 开始 */
+.park-management-content{
+	
+}
+.park-management-content ul{
+	    display: flex;
+	    justify-content: flex-start;
+	    flex-wrap: wrap;
+       	padding-top: 0.04rem;	
+}
+.park-management-content ul li{
+	    width: 33.3vw;
+	    height: 33vw;
+	    border-radius: 5px;
+	    text-align: center;
+	    display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    position: relative;
+}
+.park-management-content ul li .icon-warning{
+	position: absolute;
+    right: 0.06rem;
+    top: -0.1rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #d04141;
+    z-index: 1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.2rem;
+    color: white;	
+    font-size: 0.16rem;
+    display:none;
+}
+.park-management-content ul li p{
+	font-size: 0.14rem;
+	height: 21px;
+}
+.park-management-content ul li div{
+	width: 24vw;
+	height: 24vw;
+	border-radius: 5px;
+	background: #DDDDDD;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+}
+.dialog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    z-index: 1111;
+}
+.dialog-close{
+	position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #211f1f;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.18rem;	
+}
+.dialog-close:before{
+	position: absolute;
+    content: ' ';
+    width: 0.13rem;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+}
+.dialog-close:after{
+	position: absolute;
+    content: ' ';
+    width: 0.13rem;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-45deg);
+}
+.empCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	 -webkit-transform: translate(-50%,-50%);
+	
+}
+.park-management-content ul li div p{
+	font-size: 0.2rem;	
+	
+	
+}
+.park-management-content ul li .green{
+	background: #08d298;
+}
+.park-management-content ul li .green p:nth-child(1){
+	color: white;
+	font-size: 0.15rem;
+}
+.park-management-content ul li .green p:nth-child(2){
+	font-size: 0.13rem;
+	color: #efefef;
+}
+.park-management-content ul li .blue{
+	background: #00aaff;
+}
+.park-management-content ul li .blue p:nth-child(1){
+	color: white;
+	font-size: 0.15rem;
+}
+.park-management-content ul li .blue p:nth-child(2){
+	font-size: 0.13rem;
+	color: #efefef;
+}
+
+.park-management-content ul li .red{
+	background: #e8765b;
+}
+.park-management-content ul li .red p{
+	color: white;
+	font-size: 0.14rem;	
+}
+.park-management-num{
+	padding: 0.09rem 0.1rem 0;
+    color: #0af;
+    font-size: 0.15rem;
+}
+/* 车位管理CSS 结束 */
+
+
+/* 未处理车位css 开始*/
+.park-management-content-undeal{
+	
+}
+.car-list .mui-input-row label~input{
+			text-align: right;
+			font-size: 0.14rem;
+				height: 0.3rem;
+	}
+.car-list .mui-input-row label{
+		font-size: 0.12rem;
+		color: #6D6D72;
+			height: 0.3rem;
+		
+	}
+.car-list .mui-input-group .mui-input-row:after,.car-list .mui-input-group:after,.car-list .mui-input-group:before{
+		background: #FFFFFF;
+	}
+.car-list .mui-input-group .mui-input-row{
+		height:0.35rem;
+	}
+.car-num{
+	margin: 0.3rem 0;
+	
+}
+.park-management-content-undeal .main-img{
+	/* height: 2rem; */
+	/* background: #08D298; */
+	margin: 3%;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+
+.park-management-content-undeal .main-img input{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index:2;
+}
+
+.bw-img ,.qs-img{
+	margin: 3%;
+	box-sizing: border-box;
+	position: relative;
+}
+.bw-img input,.qs-img input{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index:2;
+}
+.bw-img img ,.qs-img img {
+	width: 100%;
+	height: 100%;
+}
+.bw-img > p ,.qs-img > p,.main-img p {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #4a4a4a;
+    border-radius: 3px;
+    color: white;
+    padding: 0.01rem;
+    font-size: 0.12rem;
+}
+.park-management-content-undeal .main-img img{
+	width: 100%;
+	height: 100%;
+}
+/* 未处理车位css 结束*/
+.btn-box{
+	text-align: center;
+}
+.btn-box span ,.btn-box button{
+	width: 80%;
+	margin: auto;
+	background: #08d298;
+	color: white;
+	border-color: #08d298;
+	padding: 8px 12px;
+}
+.own-title{
+	padding: 0.05rem;
+}
+
+.ft-label{
+	height: 60px;padding: 27px 56px !important;color: #8f8f94;
+	
+}
+.ft-table{
+	position: absolute;top: 0;right: 0;width: 60%;height: 60px;
+}
+.ft-btn{
+	width: 1rem !important;height: 60px;border: none;background: #08d298;line-height: 60px !important;padding: 0 !important;color: white;
+}
+.colorOrg{
+	color: orange;
+	font-size: 0.15rem;
+}
+.colorBlue{
+	color: #007aff;
+	font-size: 0.15rem;
+}
+.point{
+	font-weight: 900;
+	    color: #bdbcba;
+	    
+}
+.main-wallet-top{
+	    height: 1.3rem;
+	    background: #08d298;
+	    display: flex;
+	    align-items: center;
+	    flex-direction: column;
+	    position: relative;
+}
+.wallet-title{
+	    color: #ffffff;
+	    margin-top: 0.25rem;
+	    margin-bottom: 0.3rem;
+	    font-size: 0.13rem;
+}
+.wallet-money{
+	    font-size: 0.4rem;
+	    color: white;
+}
+.wallet-money i{
+	font-size: 0.25rem;
+}
+.wallet-money span{
+	 font-size: 0.4rem;
+}
+.jfmsg{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    font-size: 0.14rem;
+    padding: 0.03rem 0.1rem;
+	
+}
+.main-wallet-bottom{
+	display: flex;
+    background: #0cbf8c;
+    height: 0.6rem;
+	
+}
+.main-wallet-bottom > div{
+	flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+	
+}
+.main-wallet-bottom > div:nth-child(1):before{
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    background: #ddd;
+    right: 0px;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.main-wallet-bottom > div p:nth-child(1){
+	color: #088c66;
+	
+}
+.main-wallet-bottom > div p:nth-child(2){
+    color: white;
+    font-size: 0.2rem;
+}
+.mui-title{
+	font-size:0.16rem	
+}
+.mui-pull-right{
+	color:#fff !important;
+	font-size:0.13rem !important;
+	position: absolute;
+    right: 0.1rem;
+    z-index: 11;
+}
+.mui-dtpicker-header button:nth-child(2){
+	border: 1px solid #08d298;
+    background-color: #08d298;
+}
+.charge-rate-table table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+.charge-rate-table table tr{
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+	
+}
+.charge-rate-table table tr td{
+	padding: 0.07rem 0;
+    text-align: center;
+    color: #9e9e9e;
+    font-size: 0.13rem;
+	
+}
+.charge-rate-table table tfoot{
+	    height: 1rem;
+}
+.charge-rate-table table tfoot tr{
+	height: 0.3rem;
+    text-align: center;
+    border-top: 5px solid #f5f5f5;
+	
+}
+.charge-rate-table table tfoot tr td{
+	 color: #00c4ff;
+}
+
+.jdt {
+	width: 90%;
+	height: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display:none;
+}
+
+.jdt .jdt-contents {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	position: absolute;
+	box-sizing: border-box;
+	left: 0;
+}
+
+.jdt-precents {
+	position: absolute;
+	height: 100%;
+	width: 10px;
+	background: greenyellow;
+	border-radius: 5px;
+	left: 0;
+}
+
+.jdt-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: red;
+	font-size: 12px;
+}
+.img-grid{
+	display: grid;
+    grid-template-columns: 1rem 1rem 1fr;
+    grid-auto-rows: 0.8rem;
+    grid-template-areas:
+        'a a b'
+        'a a c';
+	
+}
+.park-management-content-undeal .main-img{
+	margin: 3%;
+    box-sizing: border-box;
+    position: relative;
+    grid-auto-flow: column;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.park-management-content-undeal .abs-img{
+	margin: 3%;
+    box-sizing: border-box;
+    position: relative;
+    grid-auto-flow: column;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.main-pay-detail{
+    margin: 5px 10px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
+    padding: 0.2rem 0;
+}
+.pay-detail{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0.2rem;
+    border-bottom: 1px dashed #ddd;
+    color: black;
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
+}
+.pay-detail p{
+	color: black;
+	font-size: 0.12rem;
+}
+.pay-detail p:nth-child(1){
+	font-size: 0.23rem;
+    color: black;
+    margin-bottom: 0.15rem;
+}
+.pay-detail-list{
+	padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin: 0 0.2rem;
+}
+.pay-detail-list ul li{
+    padding: 0.05rem 0;
+    color:#a0a0a0;
+    font-size: 0.12rem;
+}
+.pay-detail-list ul li span{
+	color:black;
+}
+.ok-text{
+    position: absolute;
+    right: 0rem;
+    top: 0.1rem;
+    border: 1px solid #08d298;
+    padding: 0px 0.13rem;
+    font-size: 0.12rem;
+    color: #08d298;
+    overflow: hidden;
+    border-left: none;
+    text-indent: 0.1rem;
+    height: 0.23rem;
+    line-height: 0.23rem;
+}
+.ok-text:before{
+	content: '';
+    position: absolute;
+   left: -0.15rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    border: 1px solid #08d298;
+    top: 0;
+    transform: rotate(45deg);
+}

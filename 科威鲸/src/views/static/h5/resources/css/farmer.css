@@ -1,0 +1,108 @@
+.conditions-level-2-3{
+	height: 85%;
+	background: #fff;
+}
+.level-1{
+	float: left;
+    width: 30%;
+   height: calc(100% - 50px);
+    background: #fff;
+}
+.level-1 ul{
+	height: 100%;
+	overflow: auto;
+	background: #eaeaea;
+}
+.level-1 ul li {
+	text-align: center;
+    line-height: 40px;
+    background: #eaeaea;
+    border-bottom: 1px solid #ddd;
+    color: #474343dd;
+    font-size: 14px;
+}
+.level-1 ul li.active{
+	background: #FFFFFF;
+	color: black;
+	
+}
+.level-2 , .level-2-3{
+	float: left;
+    width: 70%;
+    height: calc(100% - 50px);
+    background: #fff;
+    overflow: auto;
+}
+.level-2 ul{
+	border-right: 1px solid #ddd;
+}
+.level-2 ul li{
+    line-height: 40px;
+    background: #fff;
+    text-indent:10px;
+    position: relative;
+    font-size: 14px;
+}
+.level-2 ul li.active{
+	color:#007aff ;
+}
+.level-2 ul li:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	width: calc(100% - 10px);
+	height: 1px;
+	background: #ddd;
+}
+.level-2-3 .level-2{
+	float: left;
+	width: 36%;
+	overflow-x: hidden;
+ 			overflow-y: scroll;
+ 			box-sizing: border-box;
+ 			position: relative;
+}
+.level-2-3 .level-2 ul li.active{
+	color: #007aff;
+}
+.level-2-3 .level-2 ul li.active:before{
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%)rotateZ(-45deg);
+    border: 1px solid #ddd;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-right: none;
+    border-bottom: none;
+    z-index: 1;
+}
+.level-2-3 .level-3{
+	float: right;
+	width: 64%;
+	height: 100%;
+
+}
+.level-2-3 .level-3 ul li{
+	line-height: 40px;
+	text-indent: 10px;
+	position: relative;
+	font-size: 13px;
+	
+}
+.level-2-3 .level-3 ul li:after{
+	position: absolute;
+	left: 10px;
+	width: calc(100% - 10px);
+	height: 1px;
+	background: #ddd;
+	content: '';
+	bottom: 0;
+	
+}
+.level-2-3 .level-3 ul li.active{
+	color:#007aff;
+}
